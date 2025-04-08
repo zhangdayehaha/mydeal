@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>月账单明细</title>
+    <style>
+        /* 您原有的 CSS 样式 */
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1.0.1"></script>
+</head>
+<body>
+    <!-- 日期选择器和提交按钮 -->
+    <h2>选择账单月份</h2>
+    <input type="month" id="monthPicker">
+    <button onclick="fetchBillData()">提交</button>
+
+
+    <h2>×ÜÏû·Ñ £º {{ total_amount }}</h2>
+    <h2>È¥³ý´ó¶îÏû·ÑºóµÄ×ÜÏû·Ñ £º {{ total_amount_no }}</h2>
+
+
+<h2>大额支出</h2>
+<table>
+    <tr>
+        <th>分类</th>
+        <th>名称</th>
+        <th>金额</th>
+        <th>日期</th>
+        <th>来源</th>
+    </tr>
+    {% for expenditure in large_expenditures %}
+    <tr>
+        <td>{{ expenditure.category }}</td>
+        <td>{{ expenditure.bill.id }}</td>
+        <td>{{ expenditure.bill.amount }}</td>
+        <td>{{ expenditure.bill.date }}</td>
+        <td>{{ expenditure.bill.note }}</td>
+    </tr>
+    {% endfor %}
+</table>
+<div style="width:70%; height:30%;">
+    <canvas id="myChart"></canvas>
+</div>
+    {% for category, category_bills in bills.items() %}
+    <h2 class="category">{{ category }}</h2>
+    <table style="display: none;">
+        <tr>
+            <th>消费</th>
+            <th>金额</th>
+            <th>时间</th>
+            <th>来源</th>
+        </tr>
+        {% for bill in category_bills %}
+        <tr>
+            <td>{{ bill.id }}</td>
+            <td>{{ bill.amount }}</td>
+            <td>{{ bill.date }}</td>
+            <td>{{ bill.note }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endfor %}
+
+
+
+
+<h2>账单更新时间: {{ update_time }}</h2>
+</body>
+ <script>
+        function fetchBillData() {
+            var selectedMonth = document.getElementById('monthPicker').value;
+            $.ajax({
+                url: '/get-bill-data', // Flask 路由
+                method: 'POST',
+                data: { selectedMonth: selectedMonth },
+                success: function(response) {
+                    // 假设 Flask 返回的是 HTML 片段
+                    document.getElementById('billDetails').innerHTML = response;
+                }
+            });
+        }
+
+        $(document).ready(function(){
+            $(".category").click(function(){
+                $(this).next().toggle();
+            });
+        });
+
+var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: {{ dates|tojson }},
+        datasets: [{
+            label: '日曲线',
+            data: {{ amounts|tojson }},
+            borderColor: 'rgb(75, 192, 192)',
+            tension: 0.1
+        }]
+    },
+    options: {
+        responsive: true,  // Ìí¼ÓÕâÒ»ÐÐ
+        scales: {
+            y: {
+                min: 0,    // minimum value
+                //max:2000,
+
+            },
+            x: {
+                type: 'time',
+                time: {
+                    unit: 'day'
+                }
+            }
+        },
+        plugins: {
+            datalabels: {
+                color: '#111110',
+                align: 'end',
+                anchor: 'end',
+                formatter: function(value, context) {
+                    return value.y;
+                }
+            }
+        }
+
+    }
+});
+</script>
+</html>
+

@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>树莓派嘿嘿嘿</title>
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .page-header { margin: 20px 0; border-bottom: 1px solid #eee; padding-bottom: 0; text-align: center; }
+        .btn-item { text-align: center; }
+        i { margin-right: 3px; display: inline-block; }
+        h1 { text-align: center; }
+        .tip { font-weight: bold; color: black; }
+        .tip2 { font-weight: bold; color: black; }
+        .lead { font-size: small; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="panel panel-primary">
+            
+            <script type="text/javascript">
+                        var url = "ajax2/pi.php";
+                        $(function () {
+                                
+                                var cmd = "";
+
+                                {
+                                    $.ajax({
+                                        type: "POST",
+                                        url: url,
+
+                                        success: function (result) {
+                                            $(".tip").html(result);
+                                        }
+                                    });
+                                }
+                        });
+                        var url1 = "ajax2/pi2.php";
+                        $(function () {
+                                
+                                var cmd = "";
+
+                                {
+                                    $.ajax({
+                                        type: "POST",
+                                        url: url1,
+
+                                        success: function (result) {
+                                            $(".tip2").html(result);
+                                        }
+                                    });
+                                }
+                        });
+            </script>
+
+              
+            
+        </div>
+            <div class="panel-heading col-md-offset-3" style="background: #0" >
+                本月账单</div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="alert alert-success" style="background: #25" >
+                           <span class="tip2"> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="alert alert-success" style="background: #25" >
+                           <span class="tip"> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

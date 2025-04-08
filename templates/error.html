@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>错误提示</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <div class="alert alert-danger" role="alert">
+            <h4 class="alert-heading">⚠️ 数据加载失败</h4>
+            <p>{{ message }}</p>
+            <hr>
+            <p class="mb-0">请检查以下可能原因：</p>
+            <ul>
+                <li>数据文件是否存在于指定目录</li>
+                <li>文件路径是否包含中文需要转义</li>
+                <li>当前月份是否有交易记录</li>
+            </ul>
+            <a href="/" class="btn btn-outline-danger">返回首页</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,388 @@
+2025-04-07 14:18:45 - WeiBoSpider - INFO - 爬虫实例初始化完成
+2025-04-07 14:18:51 - WeiBoSpider - DEBUG - 浏览器初始化完成
+2025-04-07 14:19:11 - WeiBoSpider - INFO - 邮件发送成功：loginsmall.png
+2025-04-07 14:19:11 - WeiBoSpider - INFO - 登录截图已发送
+2025-04-07 14:19:21 - WeiBoSpider - WARNING - 点击尝试 1/5 失败：Message: 
+Stacktrace:
+#0 0x558579213113 <unknown>
+#1 0x558578cdb6d8 <unknown>
+#2 0x558578d118c1 <unknown>
+#3 0x558578d11a81 <unknown>
+#4 0x558578d44b84 <unknown>
+#5 0x558578d2f08d <unknown>
+#6 0x558578d4290b <unknown>
+#7 0x558578d2ef53 <unknown>
+#8 0x558578d04bda <unknown>
+#9 0x558578d05ca5 <unknown>
+#10 0x5585792448dd <unknown>
+#11 0x55857925da9b <unknown>
+#12 0x5585792466b5 <unknown>
+#13 0x55857925e725 <unknown>
+#14 0x55857923a08f <unknown>
+#15 0x55857927b188 <unknown>
+#16 0x55857927b308 <unknown>
+#17 0x558579295a6d <unknown>
+#18 0x7f14f6967ea5 <unknown>
+
+2025-04-07 14:19:34 - WeiBoSpider - WARNING - 点击尝试 2/5 失败：Message: 
+Stacktrace:
+#0 0x558579213113 <unknown>
+#1 0x558578cdb6d8 <unknown>
+#2 0x558578d118c1 <unknown>
+#3 0x558578d11a81 <unknown>
+#4 0x558578d44b84 <unknown>
+#5 0x558578d2f08d <unknown>
+#6 0x558578d4290b <unknown>
+#7 0x558578d2ef53 <unknown>
+#8 0x558578d04bda <unknown>
+#9 0x558578d05ca5 <unknown>
+#10 0x5585792448dd <unknown>
+#11 0x55857925da9b <unknown>
+#12 0x5585792466b5 <unknown>
+#13 0x55857925e725 <unknown>
+#14 0x55857923a08f <unknown>
+#15 0x55857927b188 <unknown>
+#16 0x55857927b308 <unknown>
+#17 0x558579295a6d <unknown>
+#18 0x7f14f6967ea5 <unknown>
+
+2025-04-07 14:19:43 - WeiBoSpider - INFO - 成功点击元素：//div[@class="global"]//ul[@class]//li[@class="global-nav-item "]//a
+2025-04-07 14:19:53 - WeiBoSpider - WARNING - 点击尝试 1/5 失败：Message: 
+Stacktrace:
+#0 0x558579213113 <unknown>
+#1 0x558578cdb6d8 <unknown>
+#2 0x558578d118c1 <unknown>
+#3 0x558578d11a81 <unknown>
+#4 0x558578d44b84 <unknown>
+#5 0x558578d2f08d <unknown>
+#6 0x558578d4290b <unknown>
+#7 0x558578d2ef53 <unknown>
+#8 0x558578d04bda <unknown>
+#9 0x558578d05ca5 <unknown>
+#10 0x5585792448dd <unknown>
+#11 0x55857925da9b <unknown>
+#12 0x5585792466b5 <unknown>
+#13 0x55857925e725 <unknown>
+#14 0x55857923a08f <unknown>
+#15 0x55857927b188 <unknown>
+#16 0x55857927b308 <unknown>
+#17 0x558579295a6d <unknown>
+#18 0x7f14f6967ea5 <unknown>
+
+2025-04-07 14:20:05 - WeiBoSpider - WARNING - 点击尝试 2/5 失败：Message: 
+Stacktrace:
+#0 0x558579213113 <unknown>
+#1 0x558578cdb6d8 <unknown>
+#2 0x558578d118c1 <unknown>
+#3 0x558578d11a81 <unknown>
+#4 0x558578d44b84 <unknown>
+#5 0x558578d2f08d <unknown>
+#6 0x558578d4290b <unknown>
+#7 0x558578d2ef53 <unknown>
+#8 0x558578d04bda <unknown>
+#9 0x558578d05ca5 <unknown>
+#10 0x5585792448dd <unknown>
+#11 0x55857925da9b <unknown>
+#12 0x5585792466b5 <unknown>
+#13 0x55857925e725 <unknown>
+#14 0x55857923a08f <unknown>
+#15 0x55857927b188 <unknown>
+#16 0x55857927b308 <unknown>
+#17 0x558579295a6d <unknown>
+#18 0x7f14f6967ea5 <unknown>
+
+2025-04-07 14:20:18 - WeiBoSpider - WARNING - 点击尝试 3/5 失败：Message: 
+Stacktrace:
+#0 0x558579213113 <unknown>
+#1 0x558578cdb6d8 <unknown>
+#2 0x558578d118c1 <unknown>
+#3 0x558578d11a81 <unknown>
+#4 0x558578d44b84 <unknown>
+#5 0x558578d2f08d <unknown>
+#6 0x558578d4290b <unknown>
+#7 0x558578d2ef53 <unknown>
+#8 0x558578d04bda <unknown>
+#9 0x558578d05ca5 <unknown>
+#10 0x5585792448dd <unknown>
+#11 0x55857925da9b <unknown>
+#12 0x5585792466b5 <unknown>
+#13 0x55857925e725 <unknown>
+#14 0x55857923a08f <unknown>
+#15 0x55857927b188 <unknown>
+#16 0x55857927b308 <unknown>
+#17 0x558579295a6d <unknown>
+#18 0x7f14f6967ea5 <unknown>
+
+2025-04-07 14:20:30 - WeiBoSpider - WARNING - 点击尝试 4/5 失败：Message: 
+Stacktrace:
+#0 0x558579213113 <unknown>
+#1 0x558578cdb6d8 <unknown>
+#2 0x558578d118c1 <unknown>
+#3 0x558578d11a81 <unknown>
+#4 0x558578d44b84 <unknown>
+#5 0x558578d2f08d <unknown>
+#6 0x558578d4290b <unknown>
+#7 0x558578d2ef53 <unknown>
+#8 0x558578d04bda <unknown>
+#9 0x558578d05ca5 <unknown>
+#10 0x5585792448dd <unknown>
+#11 0x55857925da9b <unknown>
+#12 0x5585792466b5 <unknown>
+#13 0x55857925e725 <unknown>
+#14 0x55857923a08f <unknown>
+#15 0x55857927b188 <unknown>
+#16 0x55857927b308 <unknown>
+#17 0x558579295a6d <unknown>
+#18 0x7f14f6967ea5 <unknown>
+
+2025-04-07 14:20:42 - WeiBoSpider - WARNING - 点击尝试 5/5 失败：Message: 
+Stacktrace:
+#0 0x558579213113 <unknown>
+#1 0x558578cdb6d8 <unknown>
+#2 0x558578d118c1 <unknown>
+#3 0x558578d11a81 <unknown>
+#4 0x558578d44b84 <unknown>
+#5 0x558578d2f08d <unknown>
+#6 0x558578d4290b <unknown>
+#7 0x558578d2ef53 <unknown>
+#8 0x558578d04bda <unknown>
+#9 0x558578d05ca5 <unknown>
+#10 0x5585792448dd <unknown>
+#11 0x55857925da9b <unknown>
+#12 0x5585792466b5 <unknown>
+#13 0x55857925e725 <unknown>
+#14 0x55857923a08f <unknown>
+#15 0x55857927b188 <unknown>
+#16 0x55857927b308 <unknown>
+#17 0x558579295a6d <unknown>
+#18 0x7f14f6967ea5 <unknown>
+
+2025-04-07 14:20:44 - WeiBoSpider - ERROR - 元素点击失败：//div[@class="fn-left"]//a[@class]
+2025-04-07 14:20:44 - WeiBoSpider - INFO - 开始监控下载文件
+2025-04-07 14:21:09 - WeiBoSpider - INFO - 浏览器实例已关闭
+2025-04-07 14:31:38,783 [INFO] 邮件发送成功
+2025-04-07 14:31:38,823 [ERROR] 操作失败（尝试 1/24）: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="global"]//ul[@class]//li[@class="global-nav-item "]//a"}
+  (Session info: headless chrome=98.0.4758.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55f8250f4113 <unknown>
+#1 0x55f824bbc6d8 <unknown>
+#2 0x55f824bf28c1 <unknown>
+#3 0x55f824bf2a81 <unknown>
+#4 0x55f824c25b84 <unknown>
+#5 0x55f824c1008d <unknown>
+#6 0x55f824c2390b <unknown>
+#7 0x55f824c0ff53 <unknown>
+#8 0x55f824be5bda <unknown>
+#9 0x55f824be6ca5 <unknown>
+#10 0x55f8251258dd <unknown>
+#11 0x55f82513ea9b <unknown>
+#12 0x55f8251276b5 <unknown>
+#13 0x55f82513f725 <unknown>
+#14 0x55f82511b08f <unknown>
+#15 0x55f82515c188 <unknown>
+#16 0x55f82515c308 <unknown>
+#17 0x55f825176a6d <unknown>
+#18 0x7f6457be3ea5 <unknown>
+
+2025-04-07 14:31:38,823 [INFO] 10分钟后重试...
+2025-04-07 14:32:59,187 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))': /session/58fc2bce36817edfaafdd0170865f61c
+2025-04-07 14:32:59,188 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fabc465d940>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/58fc2bce36817edfaafdd0170865f61c
+2025-04-07 14:32:59,189 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fabc4653be0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/58fc2bce36817edfaafdd0170865f61c
+2025-04-07 14:33:17,937 [INFO] 邮件发送成功
+2025-04-07 14:33:17,978 [ERROR] 操作失败（尝试 1/240）: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="global"]//ul[@class]//li[@class="global-nav-item "]//a"}
+  (Session info: headless chrome=98.0.4758.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55b1431cf113 <unknown>
+#1 0x55b142c976d8 <unknown>
+#2 0x55b142ccd8c1 <unknown>
+#3 0x55b142ccda81 <unknown>
+#4 0x55b142d00b84 <unknown>
+#5 0x55b142ceb08d <unknown>
+#6 0x55b142cfe90b <unknown>
+#7 0x55b142ceaf53 <unknown>
+#8 0x55b142cc0bda <unknown>
+#9 0x55b142cc1ca5 <unknown>
+#10 0x55b1432008dd <unknown>
+#11 0x55b143219a9b <unknown>
+#12 0x55b1432026b5 <unknown>
+#13 0x55b14321a725 <unknown>
+#14 0x55b1431f608f <unknown>
+#15 0x55b143237188 <unknown>
+#16 0x55b143237308 <unknown>
+#17 0x55b143251a6d <unknown>
+#18 0x7f7abf426ea5 <unknown>
+
+2025-04-07 14:33:17,979 [INFO] 0分钟后重试...
+2025-04-07 14:33:49,291 [ERROR] 操作失败（尝试 1/240）: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="fn-left"]//a[@class]"}
+  (Session info: headless chrome=98.0.4758.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55b1431cf113 <unknown>
+#1 0x55b142c976d8 <unknown>
+#2 0x55b142ccd8c1 <unknown>
+#3 0x55b142ccda81 <unknown>
+#4 0x55b142d00b84 <unknown>
+#5 0x55b142ceb08d <unknown>
+#6 0x55b142cfe90b <unknown>
+#7 0x55b142ceaf53 <unknown>
+#8 0x55b142cc0bda <unknown>
+#9 0x55b142cc1ca5 <unknown>
+#10 0x55b1432008dd <unknown>
+#11 0x55b143219a9b <unknown>
+#12 0x55b1432026b5 <unknown>
+#13 0x55b14321a725 <unknown>
+#14 0x55b1431f608f <unknown>
+#15 0x55b143237188 <unknown>
+#16 0x55b143237308 <unknown>
+#17 0x55b143251a6d <unknown>
+#18 0x7f7abf426ea5 <unknown>
+
+2025-04-07 14:33:49,291 [INFO] 0分钟后重试...
+2025-04-07 14:34:19,339 [ERROR] 操作失败（尝试 2/240）: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="fn-left"]//a[@class]"}
+  (Session info: headless chrome=98.0.4758.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55b1431cf113 <unknown>
+#1 0x55b142c976d8 <unknown>
+#2 0x55b142ccd8c1 <unknown>
+#3 0x55b142ccda81 <unknown>
+#4 0x55b142d00b84 <unknown>
+#5 0x55b142ceb08d <unknown>
+#6 0x55b142cfe90b <unknown>
+#7 0x55b142ceaf53 <unknown>
+#8 0x55b142cc0bda <unknown>
+#9 0x55b142cc1ca5 <unknown>
+#10 0x55b1432008dd <unknown>
+#11 0x55b143219a9b <unknown>
+#12 0x55b1432026b5 <unknown>
+#13 0x55b14321a725 <unknown>
+#14 0x55b1431f608f <unknown>
+#15 0x55b143237188 <unknown>
+#16 0x55b143237308 <unknown>
+#17 0x55b143251a6d <unknown>
+#18 0x7f7abf426ea5 <unknown>
+
+2025-04-07 14:34:19,339 [INFO] 0分钟后重试...
+2025-04-07 14:34:49,379 [ERROR] 操作失败（尝试 3/240）: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="fn-left"]//a[@class]"}
+  (Session info: headless chrome=98.0.4758.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55b1431cf113 <unknown>
+#1 0x55b142c976d8 <unknown>
+#2 0x55b142ccd8c1 <unknown>
+#3 0x55b142ccda81 <unknown>
+#4 0x55b142d00b84 <unknown>
+#5 0x55b142ceb08d <unknown>
+#6 0x55b142cfe90b <unknown>
+#7 0x55b142ceaf53 <unknown>
+#8 0x55b142cc0bda <unknown>
+#9 0x55b142cc1ca5 <unknown>
+#10 0x55b1432008dd <unknown>
+#11 0x55b143219a9b <unknown>
+#12 0x55b1432026b5 <unknown>
+#13 0x55b14321a725 <unknown>
+#14 0x55b1431f608f <unknown>
+#15 0x55b143237188 <unknown>
+#16 0x55b143237308 <unknown>
+#17 0x55b143251a6d <unknown>
+#18 0x7f7abf426ea5 <unknown>
+
+2025-04-07 14:34:49,396 [INFO] 0分钟后重试...
+2025-04-07 14:35:19,442 [ERROR] 操作失败（尝试 4/240）: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="fn-left"]//a[@class]"}
+  (Session info: headless chrome=98.0.4758.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55b1431cf113 <unknown>
+#1 0x55b142c976d8 <unknown>
+#2 0x55b142ccd8c1 <unknown>
+#3 0x55b142ccda81 <unknown>
+#4 0x55b142d00b84 <unknown>
+#5 0x55b142ceb08d <unknown>
+#6 0x55b142cfe90b <unknown>
+#7 0x55b142ceaf53 <unknown>
+#8 0x55b142cc0bda <unknown>
+#9 0x55b142cc1ca5 <unknown>
+#10 0x55b1432008dd <unknown>
+#11 0x55b143219a9b <unknown>
+#12 0x55b1432026b5 <unknown>
+#13 0x55b14321a725 <unknown>
+#14 0x55b1431f608f <unknown>
+#15 0x55b143237188 <unknown>
+#16 0x55b143237308 <unknown>
+#17 0x55b143251a6d <unknown>
+#18 0x7f7abf426ea5 <unknown>
+
+2025-04-07 14:35:19,442 [INFO] 0分钟后重试...
+2025-04-07 14:35:49,485 [ERROR] 操作失败（尝试 5/240）: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="fn-left"]//a[@class]"}
+  (Session info: headless chrome=98.0.4758.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55b1431cf113 <unknown>
+#1 0x55b142c976d8 <unknown>
+#2 0x55b142ccd8c1 <unknown>
+#3 0x55b142ccda81 <unknown>
+#4 0x55b142d00b84 <unknown>
+#5 0x55b142ceb08d <unknown>
+#6 0x55b142cfe90b <unknown>
+#7 0x55b142ceaf53 <unknown>
+#8 0x55b142cc0bda <unknown>
+#9 0x55b142cc1ca5 <unknown>
+#10 0x55b1432008dd <unknown>
+#11 0x55b143219a9b <unknown>
+#12 0x55b1432026b5 <unknown>
+#13 0x55b14321a725 <unknown>
+#14 0x55b1431f608f <unknown>
+#15 0x55b143237188 <unknown>
+#16 0x55b143237308 <unknown>
+#17 0x55b143251a6d <unknown>
+#18 0x7f7abf426ea5 <unknown>
+
+2025-04-07 14:35:49,508 [INFO] 0分钟后重试...
+2025-04-07 14:36:19,536 [ERROR] 操作失败（尝试 6/240）: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="fn-left"]//a[@class]"}
+  (Session info: headless chrome=98.0.4758.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55b1431cf113 <unknown>
+#1 0x55b142c976d8 <unknown>
+#2 0x55b142ccd8c1 <unknown>
+#3 0x55b142ccda81 <unknown>
+#4 0x55b142d00b84 <unknown>
+#5 0x55b142ceb08d <unknown>
+#6 0x55b142cfe90b <unknown>
+#7 0x55b142ceaf53 <unknown>
+#8 0x55b142cc0bda <unknown>
+#9 0x55b142cc1ca5 <unknown>
+#10 0x55b1432008dd <unknown>
+#11 0x55b143219a9b <unknown>
+#12 0x55b1432026b5 <unknown>
+#13 0x55b14321a725 <unknown>
+#14 0x55b1431f608f <unknown>
+#15 0x55b143237188 <unknown>
+#16 0x55b143237308 <unknown>
+#17 0x55b143251a6d <unknown>
+#18 0x7f7abf426ea5 <unknown>
+
+2025-04-07 14:36:19,536 [INFO] 0分钟后重试...
+2025-04-07 14:36:49,568 [ERROR] 操作失败（尝试 7/240）: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="fn-left"]//a[@class]"}
+  (Session info: headless chrome=98.0.4758.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55b1431cf113 <unknown>
+#1 0x55b142c976d8 <unknown>
+#2 0x55b142ccd8c1 <unknown>
+#3 0x55b142ccda81 <unknown>
+#4 0x55b142d00b84 <unknown>
+#5 0x55b142ceb08d <unknown>
+#6 0x55b142cfe90b <unknown>
+#7 0x55b142ceaf53 <unknown>
+#8 0x55b142cc0bda <unknown>
+#9 0x55b142cc1ca5 <unknown>
+#10 0x55b1432008dd <unknown>
+#11 0x55b143219a9b <unknown>
+#12 0x55b1432026b5 <unknown>
+#13 0x55b14321a725 <unknown>
+#14 0x55b1431f608f <unknown>
+#15 0x55b143237188 <unknown>
+#16 0x55b143237308 <unknown>
+#17 0x55b143251a6d <unknown>
+#18 0x7f7abf426ea5 <unknown>
+
+2025-04-07 14:36:49,585 [INFO] 0分钟后重试...
+2025-04-07 14:36:54,264 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))': /session/4d749a1e751a86fc1bf75ebe1fdb04aa
+2025-04-07 14:36:54,265 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe1fdd7bb50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/4d749a1e751a86fc1bf75ebe1fdb04aa
+2025-04-07 14:36:54,265 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe1fdd2b040>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/4d749a1e751a86fc1bf75ebe1fdb04aa
+2025-04-07 14:38:25,927 [INFO] 邮件发送成功
+2025-04-07 14:39:30,496 [INFO] 等待下载文件...

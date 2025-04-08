@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>树莓派嘿嘿嘿</title>
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .page-header { margin: 20px 0; border-bottom: 1px solid #eee; padding-bottom: 0; text-align: center; }
+        .btn-item { text-align: center; }
+        i { margin-right: 3px; display: inline-block; }
+        h1 { text-align: center; }
+        .tip { font-weight: bold; color: black; }
+        .lead { font-size: small; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h3>
+                树莓派嘿嘿嘿</h3>
+            <p class="lead">
+                -------------------------------
+            </p>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                设备</div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-3 btn-item">
+                    </div>
+                    <div class="col-xs-3 btn-item">
+                        <button type="button" class="btn btn-danger btn-trigger">
+                            <i class="fa fa-power-off"></i>关灯</button>
+                    </div>
+                    <div class="col-xs-3 btn-item">
+                        <button type="button" class="btn btn-primary btn-trigger">
+                            <i class="fa fa-refresh"></i>开灯</button>
+                    </div>
+                    <div class="col-xs-3 btn-item">
+                    </div>
+                    <script type="text/javascript">
+                        var url = "ajax/pi.php";
+                        $(function () {
+                            $(".btn-trigger").click(function () {
+                                var text = $(this).text().replace(/ /g, "").replace(/\n/g, "").replace(/\r/g, "").replace(/\t/g, "");
+                                var cmd = "";
+                                switch (text) {
+                                    case "关灯":
+                                        cmd = "sudo python /home/pi/CloseLight.py";
+                                        break;
+                                    case "开灯":
+                                        cmd = "sudo python /home/pi/Openlight.py";
+                                        break;
+                                }
+                                {
+                                    $.ajax({
+                                        type: "POST",
+                                        url: url,
+                                        data: {
+                                            action: "set-linux-cmd",
+                                            cmd: cmd
+                                        },
+                                        success: function (result) {
+                                            $(".tip").html(result);
+                                        }
+                                    });
+                                }
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+            <div class="panel-heading" style="background: #555">
+                终端</div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="alert alert-success" style="" role="alert">
+                            执行：<span class="tip"> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
